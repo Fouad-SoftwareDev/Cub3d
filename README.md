@@ -1,34 +1,38 @@
-Cub3D
+# Cub3D
 
 Cub3D is a 3D game engine based on raycasting, inspired by the classic Wolfenstein 3D game. It aims to replicate the early first-person shooter experience with simple 3D rendering techniques. It is part of the 42 curriculum.
 
-Features
+## Dependencies
 
-Raycasting rendering
+To run this project, you need to install the MiniLibX library:
 
-Player movement
+```bash
+git clone https://github.com/42Paris/minilibx-linux.git mlx_linux
+cd mlx_linux && make
+```
 
-Textured walls
+## Features
 
-Map validation
+- Raycasting rendering
+- Basic player movement
+- Textured walls
+- Simple map system
 
-Usage
+## Usage
 
-./cub3D maps/valid/map.cub
+```bash
+./cub3D maps/example.cub
+```
 
-Controls
+## Controls
 
-Mouse - Rotate view
+- **Mouse** – Look around
+- **W / S** – Move forward / backward
+- **A / D** – Strafe left / right
+- **Left / Right Arrow** – Rotate (alternative)
+- **ESC** – Exit
 
-W / S - Move forward / backward
-
-A / D - Strafe left / right
-
-Left / Right Arrow - Rotate (alternative)
-
-ESC - Exit
-
-License
+## License
 
 This project is part of the 42 curriculum.
 
